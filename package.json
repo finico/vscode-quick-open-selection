@@ -1,0 +1,55 @@
+{
+	"name": "quickOpenSelection",
+	"displayName": "quickOpenSelection",
+	"description": "Quick Open with prefix from the active editor selection",
+	"version": "1.0.0",
+	"publisher": "finico",
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"jump",
+		"open",
+		"selection",
+		"navigation"
+	],
+	"icon": "images/icon.png",
+	"license": "MIT",
+	"homepage": "https://github.com/finico/vscode-quick-open-selection/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/finico/vscode-quick-open-selection.git"
+	},
+	"bugs": {
+		"url": "https://github.com/finico/vscode-quick-open-selection/issues"
+	},
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "quickOpenSelection.quickOpenSelection",
+				"title": "Quick Open Selection"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "quickOpenSelection.quickOpenSelection",
+				"key": "ctrl+p",
+				"mac": "cmd+p",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/node": "^6.0.40",
+		"typescript": "^2.4.2",
+		"vscode": "^1.5.0"
+	}
+}
