@@ -2,7 +2,7 @@
 	"name": "quickOpenSelection",
 	"displayName": "quickOpenSelection",
 	"description": "Quick Open with prefix from the active editor selection",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "finico",
 	"engines": {
 		"vscode": "^1.15.0"
@@ -42,6 +42,12 @@
 				"command": "quickOpenSelection.quickOpenSelection",
 				"key": "ctrl+p",
 				"mac": "cmd+p",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "quickOpenSelection.quickOpenSelection",
+				"key": "ctrl+e",
+				"mac": "cmd+e",
 				"when": "editorTextFocus"
 			}
 		]
