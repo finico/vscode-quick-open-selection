@@ -46,7 +46,8 @@
 			},
 			{
 				"command": "quickOpenSelection.quickOpenSelection",
-				"win": "ctrl+e",
+				"key": "ctrl+e",
+				"mac": "cmd+p",
 				"when": "editorTextFocus"
 			}
 		]
