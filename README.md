@@ -2,7 +2,12 @@
 
 ### Available commands
 
-* **Quick Open Selection** Quick Open with prefix from the active editor selection
+* `quickOpenSelection.quickOpenSelection` Quick Open with prefix from the active editor selection
+
+### Keyboard Shortcuts
+
+* `ctrl+p, ctrl+e` on Windiws and Linux
+* `cmd+p` on macOS
 
 Feel free to create issues and pull requests
 
