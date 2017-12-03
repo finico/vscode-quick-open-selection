@@ -2,7 +2,7 @@
 	"name": "quickOpenSelection",
 	"displayName": "quickOpenSelection",
 	"description": "Quick Open with prefix from the active editor selection",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"publisher": "finico",
 	"engines": {
 		"vscode": "^1.15.0"
