@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+* Rewrite on TypeScript
+
 ## 1.0.2
 
 * Fix keybinding to not overwrite mac shortcuts
